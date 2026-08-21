@@ -1,0 +1,17 @@
+message,label
+"Application started successfully",INFO
+"User login successful",INFO
+"Payment processed successfully",INFO
+"Configuration loaded",INFO
+"High memory usage detected",WARNING
+"CPU usage is above threshold",WARNING
+"Retrying database connection",WARNING
+"Request took longer than expected",WARNING
+"Database connection failed",ERROR
+"Connection timeout while connecting to database",ERROR
+"Payment processing failed",ERROR
+"Unable to connect to Redis",ERROR
+"Service unavailable",CRITICAL
+"Database completely unreachable",CRITICAL
+"Application crashed",CRITICAL
+"System out of memory",CRITICAL
