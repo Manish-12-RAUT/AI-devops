@@ -1,0 +1,83 @@
+message,label
+"Application started successfully",INFO
+"Application shutdown completed",INFO
+"User login successful",INFO
+"User logout successful",INFO
+"Configuration loaded successfully",INFO
+"Configuration file parsed successfully",INFO
+"Health check passed",INFO
+"Request completed successfully",INFO
+"Payment processed successfully",INFO
+"Order created successfully",INFO
+"User profile updated successfully",INFO
+"Cache refreshed successfully",INFO
+"Scheduled job completed",INFO
+"Database connection established",INFO
+"Message published to queue",INFO
+"Message consumed successfully",INFO
+"File uploaded successfully",INFO
+"Session created successfully",INFO
+"API request received",INFO
+"Background worker started",INFO
+"High memory usage detected",WARNING
+"CPU usage is above threshold",WARNING
+"Disk usage is approaching capacity",WARNING
+"Database connection retry initiated",WARNING
+"Request took longer than expected",WARNING
+"API response time exceeded threshold",WARNING
+"Queue depth is increasing",WARNING
+"Cache miss rate is high",WARNING
+"Connection pool is nearly exhausted",WARNING
+"Slow database query detected",WARNING
+"Authentication retry limit approaching",WARNING
+"Certificate will expire soon",WARNING
+"Temporary network interruption detected",WARNING
+"Worker processing time is increasing",WARNING
+"Log volume is higher than normal",WARNING
+"Database connection failed",ERROR
+"Unable to connect to database",ERROR
+"Database query failed",ERROR
+"Payment processing failed",ERROR
+"Order creation failed",ERROR
+"User authentication failed",ERROR
+"Unable to connect to Redis",ERROR
+"Message processing failed",ERROR
+"API request failed",ERROR
+"File upload failed",ERROR
+"Configuration validation failed",ERROR
+"External API request failed",ERROR
+"Connection timeout while connecting to database",ERROR
+"Database transaction rolled back",ERROR
+"Failed to publish message to queue",ERROR
+"Failed to read configuration file",ERROR
+"Service dependency request failed",ERROR
+"Database completely unavailable",CRITICAL
+"Application crashed",CRITICAL
+"Application startup failed",CRITICAL
+"Service unavailable",CRITICAL
+"System out of memory",CRITICAL
+"Database cluster is unreachable",CRITICAL
+"All database connections are exhausted",CRITICAL
+"Payment service is completely unavailable",CRITICAL
+"Application process terminated unexpectedly",CRITICAL
+"Critical configuration failure",CRITICAL
+"Message queue is completely unavailable",CRITICAL
+"Authentication service is unavailable",CRITICAL
+"Multiple application instances have crashed",CRITICAL
+"Data processing pipeline has stopped",CRITICAL
+"Production service failed to start",CRITICAL
+message,INFO
+"Database connection failed",ERROR
+"Unable to connect to database",ERROR
+"DB connection could not be established",ERROR
+"Failed to establish database connection",ERROR
+"Database connection timeout",ERROR
+"PostgreSQL connection failed",ERROR
+"Could not connect to PostgreSQL",ERROR
+"Database server rejected connection",ERROR
+Database connection failed,CRITICAL
+DB connection failed,ERROR
+Unable to connect to database,CRITICAL
+Database connection timeout,CRITICAL
+Failed connecting to PostgreSQL,ERROR
+Could not establish database connection,INFO
