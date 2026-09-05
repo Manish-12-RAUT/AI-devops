@@ -7,12 +7,20 @@ pipeline {
             steps {
                 checkout([
                      $class: 'GitSCM',
-                     branches: [[name: '*/docker-ngo-web']],
+                     branches: [[name: '*/AI-devops']],
                      userRemoteConfigs: [[
                     url: 'https://github.com/Manish-12-RAUT/AI-devops.git',
                      credentialsId: '6abad636-cf42-4ab6-828e-882a06dd65cb'
     ]]
 ])
+            }
+        }
+
+        stage('ssh into kubernetes server') {
+            steps {
+                    sh '''
+                        ssh root@192.168.223.141 
+                        '''
             }
         }
 
