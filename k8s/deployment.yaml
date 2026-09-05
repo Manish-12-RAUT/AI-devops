@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ai-log-analyzer
-          image: manishraut12/log-analyzer:latest
+          image: manishraut12/ai-log-analyzer:v2
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
