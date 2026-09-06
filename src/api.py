@@ -17,9 +17,10 @@ class LogRequest(BaseModel):
 @app.get("/health")
 def health():
     return {
-        "status": "healthy"
+        "status": "healthy",
+        "version": "v2",
+        "deployed_by": "jenkins"
     }
-
 
 @app.post("/analyze")
 def analyze_log(request: LogRequest):
